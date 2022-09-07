@@ -45,7 +45,7 @@ export default function Main(props) {
         dispatch(getActivities());
         activitiesRef.current = activitiesList;
         setActivities(activitiesList)
-    }, []);
+    }, [activitiesList]);
 
 
 
